@@ -1,5 +1,5 @@
 h1 {
-    background-color: darkorange;
+    background-color: rgb(16, 29, 146);
     width: 250px;
     text-align: center;
     height: 100px;
@@ -19,16 +19,63 @@ body {
 
 .clone {
     float: left;
+    min-width: 200px;
+    min-height: 100px;
     background-color: aqua;
+    transform: translateY(-16px);
 }
 
-.cltwo {
+.imgone {
+    height: 125px;
+    width: 125px;
+    float: left;
+    transform: translateX(-210px);
+}
+
+.imgtwo {
+  height: 125px;
+    width: 125px;
+    float: left;
+    transform: translateX(-205px);
+}
+
+.imgthree {
+    height: 125px;
+    width: 125px;
+    float: left;
+    transform: translateX(-200px);
+}
+
+.imgfour {
+    height: 125px;
+    width: 125px;
+    float: left;
+    transform: translateX(-195px);
+}
+
+.Wins {
     float: left;
     background-color: cadetblue;
     margin-left: 40px;
-    width: 40px;
+    width: 90px;
+    height: 60px;
 }
 
-h2 {
-    background-color: darkgoldenrod;
+.Losses {
+    width: 90px;
+    background-color: cadetblue;
+    margin-left: 240px;
+    height: 100px;
+}
+
+.ytsi {
+    width: 150px;
+    background-color: red;
+}
+
+#totalScore {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    font-size: 2rem;
 }
