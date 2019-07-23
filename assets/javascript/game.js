@@ -22,7 +22,6 @@ console.log(numTwo);
 console.log(numThree);
 console.log(numFour);
 console.log(numTotal);
-console.log(numTotal);
 
     numOne = document.getElementById('imgone');
     numTwo = document.getElementById('imgtwo');
@@ -30,13 +29,13 @@ console.log(numTotal);
     numFour = document.getElementById('imgfour');
     numTotal = document.getElementById('totalscore');
     console.log(numOne);
+
+    $(document).ready(function(){
+    )};
     
-    if (numTotal < (STB)) {
-        lost++;
-    }
-    else { 
-        win++;
-    }
+    $('.imgone').on("click", function () {
+        
+    })
 
     
     //work here and below, trying to get anything to work.
