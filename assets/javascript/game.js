@@ -24,15 +24,21 @@ console.log(numFour);
 console.log(numTotal);
 console.log(numTotal);
 
-    var numOne = document.getElementById('#imgone');
-    var numTwo = document.getElementById('#imgtwo');
-    var numThree = document.getElementById('#imgthree');
-    var numFour = document.getElementById('#imgfour');
-    var numTotal = document.getElementById('#ytsi');
-    
-    if (numTotal > STB) {
-        win++
-        console.log(win);
-    };
+    numOne = document.getElementById('#imgone');
+    numTwo = document.getElementById('#imgtwo');
+    numThree = document.getElementById('#imgthree');
+    numFour = document.getElementById('#imgfour');
+    numTotal = document.getElementById('#totalscore');
+    console.log(numOne);
+
+    //work here and below, trying to get anything to work.
+        $("clone").text("Score To Beat" + STB);
+   
+        $('#imgone').on("click", function() {
+            console.log("I've been clicked!");
+          });
+
+    console.log(win);
+    console.log(lost)
 
  
