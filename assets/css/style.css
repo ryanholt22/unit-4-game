@@ -30,6 +30,7 @@ body {
     width: 125px;
     float: left;
     transform: translateX(-210px);
+    margin: 20px;
 }
 
 .imgtwo {
@@ -37,6 +38,7 @@ body {
     width: 125px;
     float: left;
     transform: translateX(-205px);
+    margin: 20px;
 }
 
 .imgthree {
@@ -44,6 +46,7 @@ body {
     width: 125px;
     float: left;
     transform: translateX(-200px);
+    margin: 20px;
 }
 
 .imgfour {
@@ -51,6 +54,7 @@ body {
     width: 125px;
     float: left;
     transform: translateX(-195px);
+    margin: 20px;
 }
 
 .Wins {
