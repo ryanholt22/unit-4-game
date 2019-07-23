@@ -33,28 +33,28 @@ body {
     height: 150px;
     width: 150px;
     float: left;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .imgtwo {
   height: 150px;
   width: 150px;
   float: left;
-  margin-left: 20px;
+  margin: 20px;
 }
   
 .imgthree {
     height: 150px;
     width:150px;
     float: left;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .imgfour {
     height: 150px;
     width:150px;
     float: left;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .Wins {

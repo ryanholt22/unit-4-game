@@ -23,29 +23,43 @@ console.log(numThree);
 console.log(numFour);
 console.log(numTotal);
 
-    numOne = document.getElementById('imgone');
-    numTwo = document.getElementById('imgtwo');
-    numThree = document.getElementById('imgthree');
-    numFour = document.getElementById('imgfour');
-    numTotal = document.getElementById('totalscore');
-    console.log(numOne);
+// numOne = document.getElementById('imgone');
+// numTwo = document.getElementById('imgtwo');
+// numThree = document.getElementById('imgthree');
+// numFour = document.getElementById('imgfour');
+// numTotal = document.getElementById('totalscore');
+// console.log(numOne);
 
-    $(document).ready(function(){
-    )};
-    
+$(document).ready(function () {
+
     $('.imgone').on("click", function () {
-        
-    })
+        alert("The number for this crystal is:" + " " + numOne);
+    });
 
-    
-    //work here and below, trying to get anything to work.
-        $("clone").text("Score To Beat" + STB);
-   
-        $('.imgone').on("click", function() {
-            console.log("I've been clicked!");
-          });
+    $('.imgtwo').on("click", function () {
+        alert("The number for this picture is:" + " " + numTwo);
+    });
 
-    console.log(win);
-    console.log(lost)
+    $('.imgthree').on("click", function () {
+        alert("The number for this crystal is:" + " " + numThree);
+    });
 
- 
+    $('.imgfour').on("click", function () {
+        alert("The number for this crystal is:" + " " + numFour);
+    });
+
+});
+
+
+
+
+
+//work here and below, trying to get anything to work.
+
+$('.imgone').on("click", function () {
+    console.log("I've been clicked!");
+});
+
+console.log(win);
+console.log(lost)
+
