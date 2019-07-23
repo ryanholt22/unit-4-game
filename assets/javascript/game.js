@@ -50,6 +50,10 @@ $(document).ready(function () {
 
 });
 
+    for (var i =0; i < STB; i++) {
+        numTotal[i];
+        wins++
+    }
 
 
 
