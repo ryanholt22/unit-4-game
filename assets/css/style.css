@@ -26,35 +26,31 @@ body {
 }
 
 .imgone {
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     float: left;
-    transform: translateX(-210px);
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .imgtwo {
-  height: 125px;
-    width: 125px;
-    float: left;
-    transform: translateX(-205px);
-    margin: 20px;
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-left: 20px;
 }
-
+  
 .imgthree {
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width:150px;
     float: left;
-    transform: translateX(-200px);
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .imgfour {
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width:150px;
     float: left;
-    transform: translateX(-195px);
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .Wins {
