@@ -15,13 +15,13 @@ var numTwo = Math.floor(Math.random() * 220);
 var numThree = Math.floor(Math.random() * 220);
 var numFour = Math.floor(Math.random() * 220);
 var numTotal = numOne + numTwo + numThree + numFour;
-var STB = 500;
+var STB = Math.floor(Math.random()*1000);
 
 console.log(numOne);
 console.log(numTwo);
 console.log(numThree);
 console.log(numFour);
-console.log(numTotal);
+console.log("total", numTotal);
 
 // numOne = document.getElementById('imgone');
 // numTwo = document.getElementById('imgtwo');
@@ -32,8 +32,10 @@ console.log(numTotal);
 
 $(document).ready(function () {
 
+    
+
     $('.imgone').on("click", function () {
-        alert("The number for this crystal is:" + " " + numOne);
+        alert("The number for this crystal is: " + numOne);
     });
 
     $('.imgtwo').on("click", function () {
@@ -48,21 +50,16 @@ $(document).ready(function () {
         alert("The number for this crystal is:" + " " + numFour);
     });
 
-});
+    $("#totalScore").text(numTotal);
 
-    for (var i =0; i < STB; i++) {
-        numTotal[i];
-        wins++
-    }
+});
 
 
 
 
 //work here and below, trying to get anything to work.
 
-$('.imgone').on("click", function () {
-    console.log("I've been clicked!");
-});
+
 
 console.log(win);
 console.log(lost)
